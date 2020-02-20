@@ -1,0 +1,59 @@
+*{
+    background-color:white;
+    margin:0px;
+    padding : 0px;
+}
+.image{
+    width : 800px;
+    height : 200px;
+}
+#img1{
+    background-color: white;
+    position:absolute;
+    top : 150px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border:1px solid black;
+}
+.heading h2{
+    background-color:white;
+    padding: 3px  10px;
+}
+#img2{
+    background-color: white;
+    position:absolute;
+    top : 400px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border:1px solid black;
+}
+#img3{
+    background-color: white;
+    position:absolute;
+    top : 650px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+#main-image1{
+    background-image : url("Assignment-3-img.jpg");
+    max-width:800px;
+    height:170px;
+    background-size:cover;
+}
+#main-image2{
+    background-image : url("Assignment-3-img.jpg");
+    max-width:800px;
+    height:170px;
+    background-size:cover;
+    background-position: bottom center;
+}
+#main-image3{
+    background-image : url("Assignment-3-img.jpg");
+    width:500px;
+    height:300px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    padding-left:300px;
+}
